@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.plans{
+    padding: 1rem 2rem;
+    font-family: "Montserrat", sans-serif;
+     margin-bottom: 4rem;
+
+ }
+
+ .cards{
+    padding:0 7rem;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    font-size: 25px;
+ }
+
+ .card{
+    position: relative;
+    top: 2.5rem;
+    right: 4.5rem;
+
+    
+ }
+
+p{
+    font-size: 1rem;
+    color: grey;
+}
+
+.price{
+    position: absolute;
+    text-align: center;
+    top: 5rem;
+    left: 3rem;
+    display: flex;
+    font-size: 3rem;
+    
+}
+
+.mo{
+   display: block;
+    top: 2rem;
+}

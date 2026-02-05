@@ -52,7 +52,38 @@ p{
     
 }
 
-.mo{
-   display: block;
-    top: 2rem;
+.percentual{
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    left: 3rem;
+    font-size: 1rem;
+    align-items: center;
+    
+}
+
+.off{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-left: 5px;
+    background-color: rgb(222, 219, 219);
+    display: flex;
+}
+
+.plan{
+    position: absolute;
+    top: 3rem;
+   text-align: center; 
+    border: 1px  solid transparent;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 14rem;
+    margin-left:-3rem;
+
+
+
+    
+
 }
